@@ -1,19 +1,46 @@
 *{
     padding: 0 0;
     margin: 0 0;
+    font-family: 'Roboto', arial;
 }
 
 .header{
     color: white;
-    background-color: rgb(50,50,131);
+    background-color: #1F2937;
 }
 
 .header-top {
     display:flex;
     justify-content: space-between;
+    margin: 0 100px 0 100px;
 }
 
 ul{
     display:flex;
     list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.title-sub{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-body{
+    display: flex;
+    margin: 100px;
+}
+
+.hbright img{
+    max-height: 200px;
 }
